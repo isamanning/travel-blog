@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>    
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Source+Serif+4:opsz,wght@8..60,500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <a class="navbar-brand" href="index.html">ITB</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <header id="contact-header">
+      <h1>Contact Me</h1>
+      <p>Let me know your thoughts or questions</p>
+    </header>
+    <main>
+      <p style="text-align: center;">Sign up to my newsletter!</p>
+      <form action="/file_name.html" method="POST">
+        <section>
+          <label for="username">Username:</label>
+          <input id="username" type="text" name="username" minlength="4" required>
+        </section>
+        <section>
+          <label for="user-password">Password (only numbers, 5-7 digits long):</label>
+          <input id="user-password" type="password" name="user-password" pattern="[0-9]{5,7}" required>
+        </section>
+        <setion class="submit">
+          <input type="submit" value="Send">
+        </setion>
+      </form>
+    </main>
+    <hr>
+    <footer>
+      <ul>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">GitHub</a></li>
+      </ul>
+      <p>Copyright &copy; Isa Manning's Website 2023 - <a href="https://www.flaticon.com/free-icons/airplane" title="airplane icons">Favicon created by Mihimihi - Flaticon</a></p>
+    </footer>
+  </body>
+</html>
